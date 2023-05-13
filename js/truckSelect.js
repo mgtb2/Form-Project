@@ -1,5 +1,5 @@
 function trunkSelect(state, loc) {
-  console.log(loc);
+  
   if (loc == "truck") {
     var truck = document.getElementById("loaderType");
   }
@@ -7,6 +7,7 @@ function trunkSelect(state, loc) {
 
   if (state == "") {
     truck.options[0] = new Option("انتخاب نوع کامیون", "");
+    truck.setAttribute('disabled', '');
   }
   if (state == "تریلی") {
     truck.options[0] = new Option("انتخاب نوع بارگیر", "");
