@@ -1,5 +1,5 @@
 function sitySelect(state, loc) {
-  console.log(loc);
+  
   if (loc == "origin") {
     var city = document.getElementById("originCity");
   } else {
